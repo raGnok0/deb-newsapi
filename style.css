@@ -1,0 +1,18 @@
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2pc;
+}
+.card{
+    margin: auto;
+}
+.card-text{
+    --max-lines: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+}
+#card-img{
+    overflow: hidden;
+}
